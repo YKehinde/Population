@@ -39,7 +39,7 @@ const sortData = (data) => {
 
   return (
     <Chart height={height} width={width}>
-      {data && sortData(data).map((country, i) => (
+      {data && sortData(data).slice(0, 10).map((country, i) => (
         <>
           <Bar key={i} x={0} y={i * (barHeight + barMargin)} height={barHeight} width={100} label={country.Country} figure={country.Population} />
         </>
