@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# World Population Chart
+
+## The Idea
+
+![original](https://github.com/YKehinde/Population/blob/main/1_37uCN6y1WyLukxwCadhWRw%20(1).gif "reference")
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
