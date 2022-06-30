@@ -4,6 +4,8 @@
 
 ![original](https://github.com/YKehinde/Population/blob/main/1_37uCN6y1WyLukxwCadhWRw%20(1).gif "reference")
 
+## ![progress](https://github.com/YKehinde/Population/blob/main/Screenshot%202022-06-30%20at%2013.50.02.png "progress")
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
