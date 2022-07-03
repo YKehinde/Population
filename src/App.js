@@ -6,8 +6,8 @@ import populationData from './generated.json';
 
 function App() {
   const [currentYear, setCurrentYear] = useState(1990);
-  const [currentData, setCurrentData] = useState({});
-
+  const [currentData, setCurrentData] = useState(populationData[currentYear]);
+  
   const previousYear = () =>{
     let tempYear;
     if (currentYear > 1990 ) {
@@ -42,8 +42,8 @@ function App() {
       <div className="chart">
         {currentData && <ChartData data={currentData} />}
       </div>
-      <Button label="previous year" onClick={previousYear} />
-      <Button label="next year" onClick={nextYear} />
+      <Button label="previous year" onClick={previousYear} disabled={currentYear === 1990}/>
+      <Button label="next year" onClick={nextYear} disabled={currentYear === 2010} />
     </div>
   );
 }
